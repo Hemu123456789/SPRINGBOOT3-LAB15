@@ -1,0 +1,12 @@
+SELECT * FROM student.products;
+INSERT INTO `student`.`products` (`productID`, `productCode`, `name`, `quantity`, `price`) VALUES ('15', '3', 'Olive Oil', '58', '9500');
+UPDATE `student`.`products` SET `productID` = '14' WHERE (`productID` = '1');
+INSERT INTO `student`.`products` (`productID`, `productCode`, `name`, `quantity`, `price`) VALUES ('16', '4', 'Coconut Oil', '60', '12003');
+INSERT INTO `student`.`products` (`productID`, `productCode`, `name`, `quantity`, `price`) VALUES ('1', '1', 'Soap', '10', '650');
+INSERT INTO `student`.`products` (`productID`, `productCode`, `name`, `quantity`, `price`) VALUES ('18', '8', 'Body Deo', '12', '1230');
+INSERT INTO `student`.`products` (`productID`, `productCode`, `name`, `quantity`, `price`) VALUES ('13', '9', 'Shampoo', '8', '520');
+INSERT INTO `student`.`products` (`productID`, `productCode`, `name`, `quantity`, `price`) VALUES ('19', '6', 'Hair Conditioner', '9', '750');
+INSERT INTO `student`.`products` (`productID`, `productCode`, `name`, `quantity`, `price`) VALUES ('9', '5', 'Wash Hand Senitizer', '20', '952');
+INSERT INTO `student`.`products` (`productID`, `productCode`, `name`, `quantity`, `price`) VALUES ('11', '7', 'Coffe Bean', '20', '2500');
+INSERT INTO `student`.`products` (`productID`, `productCode`, `name`, `quantity`, `price`) VALUES ('12', '10', 'Tea Bag', '15', '1520');
+commit;
